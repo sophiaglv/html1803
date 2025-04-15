@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.personagem{
+    width: 150px;
+    height: 150px;
+    background-image: url('/img/image.png');
+    background-size: cover;
+    top: 0;
+    left: 0;
+    position: absolute;
+}
+
+body.verde{
+    background-color: rgb(173, 230, 173);
+}
