@@ -6,6 +6,7 @@ botao.addEventListener('click', function calcular(){
 
     let soma = parseInt(valor1) + parseInt(valor2);
 
-    if (calcular.key === 'Enter'||"click")
-    alert(soma);
+    if (calcular.key === 'Enter'||"click"){
+        alert(soma);
+    }
 });
